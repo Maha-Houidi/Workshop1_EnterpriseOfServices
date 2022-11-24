@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entreprise of Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div id="logo">
+                <h1>logo</h1>
+            </div>
+            <div id="nav-links">
+                <a href="#home">home</a>
+                <a href="#team">team</a>
+                <a href="#services">services</a>
+                <a href="#contact">contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div>
+            <h1>enterprise <span>of</span>  services</h1>
+            <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, rerum commodi esse quos modi eos 
+                culpa omnis molestias fugiat minus eaque iure quaerat ipsam? Ducimus, pariatur sint. Explicabo, fugit vitae?
+            </p>
+            <button> <a href="" target="_blank">visit linkedin</a> </button>
+        </div>
+        <div>
+            <img src="entreprise.jpg" alt="team meeting">
+        </div>
+    </section>
+
+
+    <section id="team">
+        <div class="section-title">
+            <h1>our team</h1>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="card">
+                <img src="team-member.jpg" alt="team member">
+                <p class="name">foulen ben foulen</p>
+            </div>
+            <div class="card">
+                <img src="team-member.jpg" alt="team member">
+                <p class="name">foulen ben foulen</p>
+            </div>
+            <div class="card">
+                <img src="team-member.jpg" alt="team member">
+                <p class="name">foulen ben foulen</p>
+            </div>
+            <div class="card">
+                <img src="team-member.jpg" alt="team member">
+                <p class="name">foulen ben foulen</p>
+            </div>
+            <div class="card">
+                <img src="team-member.jpg" alt="team member">
+                <p class="name">foulen ben foulen</p>
+            </div>
+            <div class="card">
+                <img src="team-member.jpg" alt="team member">
+                <p class="name">foulen ben foulen</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="section-title">
+            <h1>our services</h1>
+            <hr>
+        </div>
+        <table border="1">
+            <tr>
+                <th></th>
+                <th>service</th>
+                <th>price</th>
+            </tr>
+            <tr>
+                <td rowspan="3">hebergement</td>
+                <td>Lorem ipsum, dolor sit amet consectetu, aut saepe obcaecati.</td>
+                <td>1200$</td>
+            </tr>
+            <tr>
+                <td>Lorem ipsum, dolor sit amet consectetu, aut saepe obcaecati.</td>
+                <td>1200$</td>
+            </tr>
+            <tr>
+                <td>Lorem ipsum, dolor sit amet consectetu, aut saepe obcaecati.</td>
+                <td>1200$</td>
+            </tr>
+            <tr>
+                <td rowspan="3">restauration</td>
+                <td>Lorem ipsum, dolor sit amet consectetu, aut saepe obcaecati.</td>
+                <td>1200$</td>
+            </tr>
+            <tr>
+                <td>Lorem ipsum, dolor sit amet consectetu, aut saepe obcaecati.</td>
+                <td>1200$</td>
+            </tr>
+            <tr>
+                <td>Lorem ipsum, dolor sit amet consectetu, aut saepe obcaecati.</td>
+                <td>1200$</td>
+            </tr>
+        </table>
+    </section>
+
+      <section id="contact">
+            <div class="section-title">
+                <h1>Contact</h1>
+                <hr>
+            </div>
+            <div>
+                <form action="" method="POST">
+                    <div>
+                        <label for="full-name">full name</label>
+                        <input type="text" name="full-name"  required>
+                    </div>
+                    <div>
+                        <label for="email">email</label>
+                        <input type="email" name="email"  required>
+                    </div>
+
+                    <div>
+                        <label for="age">age</label>
+                        <input type="number" min="18" max="50" name="age"  required>
+                    </div>
+
+                    <div>
+                        <label for="gender">gender</label>
+                        <input type="radio" name="gender" value="female" required>female
+                        <input type="radio" name="gender" value="male" required>male
+                    </div>
+                    <div>
+                        <label for="tel">phone number</label>
+                        <input type="tel" name="tel"  required>
+                    </div>
+                    <div>
+                        <label for="file">file</label>
+                        <input type="file" name="file" required>
+                    </div>
+                    <div>
+                        <label for="secret-word">secret word</label>
+                        <input type="password" name="secretWord"  required>
+                    </div>
+                    <div>
+                        <button type="submit">send</button>
+                        <button type="reset">cancel</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    <footer>
+        <div> &copy; creative-lab-isi | team dev | 2022 </div>
+    </footer>
+
+</body>
+</html>

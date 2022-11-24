@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*common style */
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+h1{
+    color:rgb(8, 8, 107);
+    font-size: 32px;
+}button{
+    background-color:rgb(8, 8, 107);
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: 700;
+    margin: 20px 0px 20px 0px ;
+    padding: 10px 25px 10px 25px ;
+    border-radius: 15px;
+}
+.description{
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0 10px;
+}
+
+.section-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:  35px  ;
+}
+.section-title h1{
+    text-transform: uppercase;
+}
+.section-title hr{
+    width: 100px;
+    height: 2px;
+    color: rgb(161, 22, 104);
+}
+
+
+
+/*header*/ 
+
+nav{
+    width: 100%;
+    background-color: rgb(8, 8, 107);
+    padding: 30px 0 30px 0;
+    display: flex;
+    align-items: center;
+    /*fixed navbar*/
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+}
+nav div#logo{
+    position: absolute;
+    left: 10%;
+}
+nav div#logo h1{
+    text-transform: uppercase;
+    color: whitesmoke;
+    margin: 20px 0 20px 0;
+}
+nav div#logo h1::first-letter{
+    font-size: larger;
+    color: rgb(161, 22, 104);  /*(red , green, bleu)*/
+}
+nav div#nav-links{
+    position: absolute;
+    right: 10%;
+}
+nav div#nav-links a{
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 0 20px 0 20px;
+}
+nav div#nav-links a:hover{
+    border-bottom: solid 3px rgb(161, 22, 104);
+    font-weight: 400;
+}
+
+/*sections */ 
+
+/**home section*/ 
+section#home{
+    margin-top: 60px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    border-left: groove 5px rgb(161, 22, 104);
+    width: 100%;
+}
+section#home div{
+    flex: 50%;
+}
+section#home div:nth-of-type(1){
+    padding: 10%;
+}
+section#home div h1{
+    text-transform: capitalize;
+}
+section#home div span{
+    text-transform: lowercase;
+    font-size: smaller;
+}
+section#home div img{
+    width: 100%;
+}
+
+/* team section*/
+
+section#team div.container{
+    margin: 0 10% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section#team div.container div.card{
+    width: 20%;
+    margin: 20px 50px;
+    background-color: rgb(8, 8, 107);
+}
+section#team div.container div.card:hover{
+    box-shadow: 4px 6px 10px rgb(8, 8, 107);
+}
+section#team div.container div.card img{
+    width: 100%;
+    height: 80%;
+}
+section#team div.container div.card p.name{
+    text-align: center;
+    padding-top: 10px;
+    color: whitesmoke;
+    text-transform: capitalize;
+}
+
+/*services section*/
+section#services{
+    padding-bottom: 30px;
+}
+table{
+    margin: auto;
+}
+table th{
+    background-color:rgb(8, 8, 107);
+    color: whitesmoke;
+}
+table th , tr, table td {
+    padding: 10px;
+}
+
+/*section contact*/
+section#contact{
+    background-color: whitesmoke;
+    padding-bottom: 30px;
+}
+form{
+    width: 70%;
+    margin:auto;
+    padding: 10px;
+    box-shadow: 4px 6px 10px rgb(3, 3, 83);
+    background-color: whitesmoke;
+    opacity: 0.8;
+}
+form div {
+    margin: 10px;
+    display: flex;
+}
+form div label{
+    flex: 30%;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+form div input {
+    padding: 10px;
+    flex: 70%;
+}
+
+form div button{
+    width: 50%;
+    margin-left: 30%;
+
+}
+
+
+/*footer*/ 
+footer{
+    background-color: rgb(3, 3, 83);
+    color: whitesmoke;
+    padding: 30px;
+}
+footer div {
+    text-align: center;
+}
